@@ -185,3 +185,7 @@
 [url "git://gist.github.com/"]
 
 	insteadOf = "gist:"
+
+[user]
+	name = Jason Lewis
+	email = jm.lewis@gmail.com
