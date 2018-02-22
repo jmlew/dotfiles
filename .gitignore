@@ -1,14 +1,36 @@
-# Compiled Python files
+# Compiled output
+/dist
+/tmp
+/out-tsc
 *.pyc
 
-# Folder view configuration files
+# Dependencies
+/node_modules
+
+# System Files
 .DS_Store
 Desktop.ini
+.Trashes
 
 # Thumbnail cache files
 ._*
 Thumbs.db
 
-# Files that might appear on external disks
-.Spotlight-V100
-.Trashes
+# IDEs and editors
+.project
+*.launch
+.settings/
+*.sublime-workspace
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Misc
+/.sass-cache
+npm-debug.log
+
+# Tests
+/e2e/*.js
+/e2e/*.map
