@@ -20,6 +20,7 @@ Thumbs.db
 *.launch
 .settings/
 *.sublime-workspace
+*.sublime-project
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
@@ -27,7 +28,7 @@ Thumbs.db
 !.vscode/extensions.json
 
 # Misc
-/.sass-cache
+.sass-cache
 npm-debug.log
 
 # Tests
