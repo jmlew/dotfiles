@@ -1,5 +1,13 @@
-# Add `~/bin` to the `$PATH`
-export PATH="$HOME/bin:$PATH";
+# Update `$PATH` with defaults
+export PATH=$HOME/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/git/bin
+
+# Switching NPM global path.
+# 1. Make a directory for global installations:
+# $ mkdir ~/.npm-global
+# 2. Configure npm to use the new directory path:
+# $ npm config set prefix '~/.npm-global'
+# 3. source this file with the below command:
+export PATH=$PATH:~/.npm-global/bin
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
