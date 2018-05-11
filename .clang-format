@@ -1,5 +1,5 @@
 ---
-Language:        JavaScript
+Language: JavaScript
 BasedOnStyle:  Google
 AccessModifierOffset: -2
 AlignAfterOpenBracket: Align
@@ -102,7 +102,6 @@ SpacesInContainerLiterals: false
 SpacesInCStyleCastParentheses: false
 SpacesInParentheses: false
 SpacesInSquareBrackets: true
-SpacesInImportCurlyBraces: true
 Standard:        Cpp11
 TabWidth:        8
 UseTab:          Never
