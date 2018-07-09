@@ -9,6 +9,12 @@ export PATH=$HOME/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:
 # 3. source this file with the below command:
 export PATH=$PATH:~/.npm-global/bin
 
+# AWS config:
+export AWS_SDK_LOAD_CONFIG=1
+export AWS_SHARED_CREDENTIALS_FILE=$HOME/.aws/credentials
+export AWS_CONFIG_FILE=$HOME/.aws/config
+export AWS_PROFILE=jlew
+
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
 # * ~/.extra can be used for other settings you don’t want to commit.
