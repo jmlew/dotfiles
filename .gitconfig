@@ -1,7 +1,13 @@
 [alias]
 
-	# View abbreviated SHA, description, and history graph of the latest 20 commits
-	l = log --pretty=oneline -n 20 --graph --abbrev-commit
+# View abbreviated SHA and description of the latest 30 commits wihtout merges
+  l = log --pretty=oneline -n 30 --abbrev-commit --no-merges --author=Jason
+
+  # View abbreviated SHA and description of the latest 30 commits for the current branch wihtout merges
+  lf = log --pretty=oneline -n 30 --abbrev-commit --no-merges --author=Jason --first-parent
+
+  # View abbreviated SHA, description, and history graph of the latest 30 commits without merges
+  lg = log --pretty=oneline -n 30 --abbrev-commit --no-merges --author=Jason --graph
 
 	# View the current working tree status using the short format
 	s = status -s
